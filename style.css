@@ -1,14 +1,105 @@
-*   {
+/* *   {
     outline: 1px solid red;
-}
+} */
 body    {
     display: flex;
     flex-direction: column;
-}
-div {
-    min-height: 30px;
-}
-.header,
-.hero   {
     font-family: Roboto, Helvetica, sans-serif;
+}
+
+
+.header,
+.hero,
+.footer   {
+    background-color: #1f2937;
+    color: #f9faf8;
+}
+.header {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    padding: 10px 0;
+    margin: 0;
+}
+.header {
+    ul {
+        margin: 0;
+        padding: 0;
+        display: flex;
+        gap: 20px;
+    }
+    li {
+        list-style-type: none;
+    }
+}
+
+.hero,
+.info,
+.quote,
+.call   {
+    display: flex;
+    justify-content: center;
+    gap: 20px;
+    padding: 50px 0;
+}
+.info   {
+    flex-direction: column;
+    align-items: center;
+}
+.boxes  {
+    display: flex;
+    gap: 10px;
+}
+
+.box {
+    width: 100px;
+}
+
+.title  {
+    font-size: 24px;
+}
+
+.left-hero  {
+    width: 400px;
+}
+
+.quote  {
+    font-size: 30px;
+    background-color: #e5e7eb;
+    flex-direction: column;
+    align-items: center;
+}
+.text   {
+    width: 700px;
+}
+.author {
+    font-weight: bold;
+    text-align: right;
+    font-size: 20px;
+}
+.call-box   {
+    box-sizing: border-box;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 50px;
+    width: 1000px;
+    background-color: #3882f6;
+    padding: 20px 100px;
+    border-radius: 10px;
+    color: white;
+}
+
+button  {
+    font-size: 18px;
+    padding: 10px 20px;
+    border-radius: 10px;
+    background-color: #3882f6;
+    border-color: white;
+    color: white;
+    font-weight: bold;
+}
+.footer {
+    text-align: center;
+    padding: 20px;
 }
