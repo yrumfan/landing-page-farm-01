@@ -1,6 +1,6 @@
-*   {
+/* *   {
     outline: 1px solid red;
-}
+} */
 body    {
     display: flex;
     flex-direction: column;
@@ -45,7 +45,7 @@ body    {
     }
     a {
         text-decoration: none;
-        color: white;
+        color: #e5e7eb;
     }
 }
 
@@ -64,7 +64,7 @@ body    {
 }
 .boxes  {
     display: flex;
-    gap: 10px;
+    gap: 50px;
 }
 
 .box {
@@ -73,14 +73,27 @@ body    {
 
 .title  {
     font-size: 24px;
+    color: #1f2937;
+    font-weight: 900;
 }
 
 .left-hero  {
     width: 400px;
+    color: #e5e7eb;
 }
-
+.right-hero {
+    border: 2px solid #3882f6;
+}
+.box img{
+    border: 5px solid #3882f6;
+    width: 100px;
+    height: 100px;
+    border-radius: 10px;
+}
 .quote  {
     font-size: 30px;
+    font-weight: 300;
+    font-style: italic;
     background-color: #e5e7eb;
     flex-direction: column;
     align-items: center;
@@ -92,6 +105,7 @@ body    {
     font-weight: bold;
     text-align: right;
     font-size: 20px;
+    font-style:normal;
 }
 .call-box   {
     box-sizing: border-box;
@@ -111,7 +125,7 @@ button  {
     padding: 10px 20px;
     border-radius: 10px;
     background-color: #3882f6;
-    border-color: white;
+    border: 2px solid white;
     color: white;
     font-weight: bold;
 }
