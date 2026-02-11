@@ -1,0 +1,14 @@
+*   {
+    outline: 1px solid red;
+}
+body    {
+    display: flex;
+    flex-direction: column;
+}
+div {
+    min-height: 30px;
+}
+.header,
+.hero   {
+    font-family: Roboto, Helvetica, sans-serif;
+}
